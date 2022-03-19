@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <title>Eddyog | Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Home of Temple Inn & Suites">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <!-- <link rel="stylesheet" media="screen and (min-width: 600px)" href="/home/style/home_medium.css">
+    <link rel="stylesheet" media="screen and (min-width: 800px)" href="/home/style/home_large.css"> -->
+
+
+</head>
+
+<body>
+    <picture class="banner-out">
+        <source srcset="/home/images/banner.jpg" media="(max-width: 600px)">
+        <img id="banner" src="" alt="banner Image">
+    </picture>
+    <header>
+        <h1 id="title_page">Website Title</h1>
+    </header>
+
+    <nav>
+        <a id="menu-link" onclick="hamburgerMenu()">&#9776; Menu</a>
+        <ul class="menu">
+            <li id="current-page"><a href="index.html">Home</a></li>
+            <li><a href="/view/languages.html?language=c++">Python</a></li>
+            <li><a href="/view/languages.html?language = python">C++</a></li>
+            <li><a href="/view/languages.html?language=web-dev">Web Development</a></li>
+            <li><a href="/view/languages.html?language=others">Others</a></li>
+        </ul>
+    </nav>
+    <main class="fade">
+        <section>
+            <div class="welcome-wrap">
+                <img id="welcome-image" src="" alt="A view of the Temple from the hotel front.">
+                <div class="text-wrap">
+                    <h2 id="main_title">Welcome to my Portfolio</h2>
+                    <p id="main_message">This is the Main Message  
+                    </p>
+                    <p>
+                </div>
+            </div>
+        </section>
+
+        <div class="hero-image">
+            <div class="hero-text">
+                <div id="quote"> Motivational Quote</div>
+            </div>
+            <div class="parallax parallax1">
+                <form action="reservation/reservation.html"><button id="contact">Contact</button></form>
+            </div>
+        </div>
+
+        <section class="about-me">
+            <h2 id="about_title">About</h2>
+            <div class="featured-wrap">
+                <p id="about_message">About Message</p>
+            </div>
+        </section>
+
+        <div class="spotlight">
+            <span class="prev" onclick="plusSlides(-1)">&#9664;</span> <span class="next"
+                onclick="plusSlides(1)">&#9654;</span>
+
+            <div class="spotlight-head">
+                <h2 id="main-service-title">Main Services</h2>
+            </div>
+
+            <!-- First Project -->
+            <div class="mySlides fade">
+                <picture class="spot">
+                    <source srcset="/home/images/torpedo.jpg" media="(max-width: 600px)">
+                    <img class="spot" id="project_first_image" src=""
+                        alt="Torpedo image. Programmmed in python">
+                </picture>
+                <p id="example_1">First example </p>
+                    <form id="first_link" action="a"><button id="first_button">First Link</button></form>
+            </div>
+            <!--Second Project  -->
+            <div class="mySlides fade">
+                <picture class="spot">
+                    <source srcset="/home/image/moon-lander.jpg" media="(max-width: 600px)">
+                    <img class="spot" id="project_second_image" src="" alt="Moon lander image">
+                </picture>
+                <p id="example_2"> Second Example</p>
+                    <form id="second_link" action="/guest-portal/guest.html"><button id="second_button">Learn More</button></form>
+            </div>
+
+            <!-- Third Project -->
+            <div class="mySlides fade">
+                <picture class="spot">
+                    <source srcset="/home/images/xylophone.png" media="(max-width: 600px)">
+                    <img class="spot" id="project_third_image" src="" alt="Xylophone app">
+                </picture>
+                <p id="example_3">Third Example</p>
+                    <form id="third_link" action="/guest-portal/guest.html"><button id="third_button">Learn More</button></form>
+            </div>
+        </div>
+        <br>
+        <div class="dotbox">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <section>
+            <div class="testimonials-wrap">
+                <h2 id="references">Others</h2>
+                <div class="testimonials">
+                    <div class="comment-wrap">
+                        <img id="references_1_image" src="" alt="First example of Others">
+                        <p id="references_1"></p>
+                        <!-- <form action="https://eddyog.github.io/home/home.html"><button>Temple Inn</button></form> -->
+                    </div>
+                    <div class="comment-wrap third-comment">
+                        <img id="references_2_image" src="/home/images/padres.jpg" alt="Second example of Others">
+                        <p id="references_2"></p>
+                        <!-- <form action="https://eddyog.github.io/lesson_9/home_page/home.html"><button>Weather Site</button></form> -->
+                    </div>
+                    <div class="comment-wrap">
+                        <img id="references_3_image" src="" alt="The groom in a tuxedo on the beach.">
+                        <p id="references_3"></p>
+                        <form action=""><button>I-Balance link</button></form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        &copy;2022 eddyog | <a href="/contact/contact.html">Contact Us</a> | <a href="/coming-soon/coming-soon.html">Guest
+            Policies</a>
+        <p class="sub-footer"><a href="/coming-soon/coming-soon.html">Attributions</a> | <a
+                href="https://eddyog.github.io/">Eddy Gonzalez</a></p>
+        <script src="/home/js/home_js.js"></script>
+        <script src="/home/js/images.js" ></script>
+        <script src="/home//js/content.js"></script>
+
+    </footer>
+</body>
+
+</html>
