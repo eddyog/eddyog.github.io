@@ -8,6 +8,7 @@
     <meta name="description" content="Home of Temple Inn & Suites">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="../style/style.css">
+
     <!-- <link rel="stylesheet" media="screen and (min-width: 600px)" href="/home/style/home_medium.css">
     <link rel="stylesheet" media="screen and (min-width: 800px)" href="/home/style/home_large.css"> -->
 
@@ -27,13 +28,25 @@
         <a id="menu-link" onclick="hamburgerMenu()">&#9776; Menu</a>
         <ul class="menu">
             <li id="current-page"><a href="../index.html">Home</a></li>
-            <li><a href="/view/languages.html">Python</a></li>
-            <li><a href="/view/languages.html">C++</a></li>
-            <li><a href="/view/languages.html">Web Development</a></li>
-            <li><a href="/view/languages.html">Others</a></li>
+            <li><a href="/languages/languages.html?language=python">Python</a></li>
+            <li><a href="/languages/languages.html?language=c">C++</a></li>
+            <li><a href="/languages/languages.html?language=web">Web Development</a></li>
+            <li><a href="/languages/languages.html?language=swift">Swift</a></li>
+            <li><a href="/languages/languages.html?language=others">Others</a></li>
         </ul>
     </nav>
     <main class="fade">
+
+
+        <h1 id="languageTitle" name="languageTitle" >Title</h1>
+
+
+
+        <!-- <img id="project-image" src="" alt="Project Image "> -->
+        <h3 id="projectName"> Project Name</h3>
+        <p id="description">Description aboout the project</p>
+
+
  
 
     </main>
@@ -43,11 +56,12 @@
             Policies</a>
         <p class="sub-footer"><a href="/coming-soon/coming-soon.html">Attributions</a> | <a
                 href="https://eddyog.github.io/">Eddy Gonzalez</a></p>
-        <script src="/home/js/home_js.js"></script>
-        <script src="/home/js/images.js" ></script>
-        <script src="/home//js/content.js"></script>
+
 
     </footer>
+    <script src="/languages/languages.js"></script>
+    <script src="../languages/read-json.js"></script>
+
 </body>
 
 </html>

@@ -1068,3 +1068,15 @@
   
   }
   
+
+
+    
+   /* *********************** LANGUAGES **********************/
+   /*    This is the style for the sub page languages         */
+   /* *********************************************************/
+
+   #languageTitle{
+       font-size: 50px;
+       margin: 50px;
+
+   }

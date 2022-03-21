@@ -1,0 +1,10 @@
+{
+    "Languages": [{
+        "imageSrc": "../languages/python-images/submarine.jpg",
+        "imageAlt": "A Picture of the submarine Game ",
+        "name": "Submarine Game",
+        "description": "A two players game that consist of submarine shooting obstacles and getting coins"
+      }
+  
+    ]
+  }
