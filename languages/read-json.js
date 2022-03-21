@@ -1,5 +1,5 @@
 
-var requestURL = "/json-files/python.json"
+var requestURL = "https://github.com/eddyog/eddyog.github.io/blob/main/json-files/python.json"
 var request = new XMLHttpRequest();
 
 request.open('GET', requestURL);
@@ -17,8 +17,8 @@ function readLanguage(jsonObj){
 
     for (i = 0; i < languages.length ; i ++) {
         
-        // var image = "<src='" + languages[i].imageSrc + "' alt='" + languages[i].imageAlt + "'>";
-        // document.getElementById("project-image").innerHTML = image;
+        var image = "<src='" + languages[i].imageSrc + "' alt='" + languages[i].imageAlt + "'>";
+        document.getElementById("project-image").innerHTML = image;
 
         var name = languages[i].name;
         document.getElementById("projectName").innerHTML = name;
