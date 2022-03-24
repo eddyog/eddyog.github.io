@@ -1081,10 +1081,28 @@
 
    }
 
-   #product-card-template {
-       max-width: 400px;
-       max-height: 400px;
-       border: solid white;
-   }
+
+   .product-card {
+    flex: 1 1 45%;
+    margin: 0.25em;
+    padding: 0.5em;
+    border: 1px solid red;
+    max-width: 300px;
+    text-align: center;
+}
+
+.product-card h2,
+.product-card h3,
+.product-card p {
+    margin: 0.5em 0;
+    text-align: left;
+}
 
 
+.product-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+}
