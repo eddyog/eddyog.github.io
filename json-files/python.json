@@ -11,21 +11,7 @@
         "imgSrc": "/languages/python-images/submarine-small.jpg",
         "description": "The snake game consist in the snake eating the snack and increasie sice for each snake that eats"
         
-      },
-
-      {
-        "name": "snake",
-        "imgSrc": "/languages/python-images/submarine-small.jpg",
-        "description": "The snake game consist in the snake eating the snack and increasie sice for each snake that eats"
-        
-      },
-      {
-        "name": "snake",
-        "imgSrc": "/languages/python-images/submarine-small.jpg",
-        "description": "The snake game consist in the snake eating the snack and increasie sice for each snake that eats"
-        
       }
-      
   
     ]
   }

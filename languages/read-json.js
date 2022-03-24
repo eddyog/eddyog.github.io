@@ -53,6 +53,7 @@ for (var i = 0; i < languages.length; i++){
     img[0].src = user.imgSrc;
 
     template.parentNode.appendChild(clone);
+
     
 }
    
