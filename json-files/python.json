@@ -3,7 +3,7 @@
         "name": "Submarine Game",
         "imgSrc": "/languages/python-images/submarine-small.jpg",
         "description": "This is two players game that consist in two submarines shooting obtaclues and gettin coins",
-        "button": "Submarine Link",
+        "button": "Submarine Github",
         "link": "https://github.com/eddyog/submarine-game.git"
       },
 
@@ -12,9 +12,16 @@
         "name": "Snake Game",
         "imgSrc": "/languages/python-images/submarine-small.jpg",
         "description": "The snake game consist in the snake eating the snack and increasie sice for each snake that eats",
-        "button": "Snake Link",
+        "button": "Snake Github",
         "link": "https://github.com/eddyog/snake-game-python.git"
-        
+      },
+
+      {
+        "name": "Jumper Game",
+        "imgSrc": "/images/python/jumper-small.jpg",
+        "description": "The jumper guesses letters, one at a time. If the letter's not in the puzzle, the parachute loses a line. Guessing continues until the puzzle is solved or, well, you know.",
+        "button": "Jumper Github",
+        "link": "https://github.com/Python-projectsss/jumper-game.git"
       }
   
     ]
