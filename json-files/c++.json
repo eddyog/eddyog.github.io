@@ -1,8 +1,8 @@
 {
     "Language": [{
-        "name": "Submarine Game",
-        "imgSrc": "/languages/python-images/submarine-small.jpg",
-        "description": "This is two players game that consist in two submarines shooting obtaclues and gettin coins",
+        "name": "Moon Lander",
+        "imgSrc": "/images/c++/moon-small.jpg",
+        "description": "Moon Lander is a genre of video games loosely based on the 1969 landing of the Apollo Lunar Module on the Moon. ",
         "button": "Submarine Link",
         "link": "https://github.com/eddyog/submarine-game.git"
       },

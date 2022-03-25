@@ -23,7 +23,7 @@ function languages(language){
 
             break;
 
-        case 'c++':
+        case 'c':
             titleElement.innerHTML = 'C++';
             break;
 

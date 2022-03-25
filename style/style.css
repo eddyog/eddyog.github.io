@@ -1086,6 +1086,14 @@ li img{
   margin-right: auto;
 }
 
+li form{
+  color: white;
+}
+
+li h2{
+  font-size: 30px;;
+}
+
 
    .product-card {
     flex: 1 1 45%;
@@ -1093,6 +1101,7 @@ li img{
     padding: 0.5em;
     border: 1px solid var(--gold);
     max-width: 300px;
+    max-height: 750px;
 }
 
 .product-card h2,
