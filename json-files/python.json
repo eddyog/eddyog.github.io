@@ -17,6 +17,14 @@
       },
 
       {
+        "name": "Mastermind Game",
+        "imgSrc": "/images/python/mastermind-small.jpg",
+        "description": "The rules are simple. Players take turns trying to crack their secret code using logic and visual hints. The first person to prove they're a mastermind wins!",
+        "button": "Mastermind Github",
+        "link": "https://github.com/Python-projectsss/Mastermind-Game.git"
+      },
+
+      {
         "name": "Jumper Game",
         "imgSrc": "/images/python/jumper-small.jpg",
         "description": "The jumper guesses letters, one at a time. If the letter's not in the puzzle, the parachute loses a line. Guessing continues until the puzzle is solved or, well, you know.",
