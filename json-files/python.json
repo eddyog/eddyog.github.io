@@ -10,7 +10,7 @@
       
       {
         "name": "Snake Game",
-        "imgSrc": "/languages/python-images/submarine-small.jpg",
+        "imgSrc": "/images/python/snake-small.jpg",
         "description": "The snake game consist in the snake eating the snack and increasie sice for each snake that eats",
         "button": "Snake Github",
         "link": "https://github.com/eddyog/snake-game-python.git"

@@ -10,7 +10,7 @@ const language = getParam('language');
 
 languages(language);
 
-function languages(language){
+// function languages(language){
 
     const titleElement = document.getElementById('languageTitle');
 
