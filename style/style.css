@@ -1079,7 +1079,13 @@
    #languageTitle{
        font-size: 50px;
        margin: 50px;
+       color: var(--gold);
 
+   }
+
+   #language_information{
+     font-size: 25px;
+     margin: 75px 50px 75px 50px;
    }
 
 li img{
