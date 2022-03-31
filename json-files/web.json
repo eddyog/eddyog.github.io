@@ -1,0 +1,24 @@
+{
+    "Language": [
+
+        {
+            "name": "Temple Site",
+            "imgSrc": "/images/web/hotel_small.jpg",
+            "description": "Website to a Hotel that will retrive information from an API with the information about the hotel and some temples from the Church of Jesus Christ for people to visit ",
+            "button": "Temple & Suit Link ",
+            "link": "https://eddyog.github.io/temple_suites.github.io/"
+          },
+
+        {
+        "name": "Weather Site",
+        "imgSrc": "/images/web/weather_small.jpg",
+        "description": "Weather Website that will display the current weather in different cities in Idaho ",
+        "button": "Weather Link ",
+        "link": "https://web-development-projectss.github.io/weather_site.github.io/"
+      }
+
+
+
+  
+    ]
+  }
