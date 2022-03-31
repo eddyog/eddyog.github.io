@@ -10,7 +10,7 @@ const references_2_image = document.getElementById('references_2_image');
 const references_3_image = document.getElementById('references_3_image');
 
 //Banner
-banner.src = '/home/images/banner.jpg';
+banner.src = 'images/logos/typing.jpeg';
 
 //Profile Picture
 picture.src = '/home/images/eddy.jpg';

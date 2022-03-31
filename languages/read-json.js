@@ -1,6 +1,5 @@
 
 
-
 const file = getParam('language');
 
 switch (file){

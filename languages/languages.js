@@ -13,6 +13,7 @@ languages(language);
 function languages(language){
 
     const titleElement = document.getElementById('languageTitle');
+    const banner = document.getElementById('banner');
 
 
     switch(language){
@@ -20,22 +21,28 @@ function languages(language){
         case 'python':
 
             titleElement.innerHTML = 'Python';
+            banner.src = '/images/logos/typing.jpeg'
+            
 
             break;
 
         case 'c':
             titleElement.innerHTML = 'C++';
+            banner.src = '/images/logos/typing.jpeg'
             break;
 
         case 'web':
             titleElement.innerHTML = 'Web Development';
+            banner.src = '/images/logos/typing.jpeg'
             break;
 
         case 'swift':
             titleElement.innerHTML  = 'Swift';
+            banner.src = '/images/logos/typing.jpeg'
             break;
         case 'others':
             titleElement.innerHTML = 'Others';
+            banner.src = '/images/logos/typing.jpeg'
             break;
 
 
