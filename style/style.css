@@ -242,6 +242,7 @@ picture {
 nav {
   margin-bottom: 0px;
   padding: 15px;
+  height: 60px;
 }
 
 nav a {
@@ -454,7 +455,12 @@ button {
 }
 
 .dotbox {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
   text-align: center;
+  background: var(--gradient_1);
+  background: var(--gradient_2);
 }
 
 .dot {
@@ -594,7 +600,6 @@ button {
     "div div"
     "div div";
   grid-gap: 20px 50px;
-  margin: 20px;
 }
 
 .testimonials img {
@@ -810,7 +815,7 @@ footer a {
 
   section {
     /* max-width: 600px; */
-    margin: 0 auto;
+    margin: 0;
   }
 
   .two-column {
@@ -860,7 +865,6 @@ footer a {
   nav {
     background-color: var(--navigation-background);
     font-size: 1.5em;
-    line-height: 3rem;
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
@@ -880,12 +884,13 @@ footer a {
     /* Safari */
     position: sticky;
     top: 0;
-    max-height: 2em;
+
   }
 
   nav li {
     display: inline;
     float: left;
+    height: 50px;
   }
 
   nav li:hover {
@@ -932,6 +937,12 @@ footer a {
     text-align: center;
 
   }
+
+  .testimonials-wrap{
+    background: var(--gradient_1);
+    background: var(--gradient_2);
+  }
+
 
 
   .testimonials img {
