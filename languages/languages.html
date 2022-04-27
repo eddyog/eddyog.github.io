@@ -39,11 +39,13 @@
     </nav>
     <main class="fade">
 
-        <h1 id="languageTitle" name="languageTitle" >Title</h1>
-        <h1 id="debugging" name="debugging" ></h1>
-
-        <p id="language_information"> Information about the Language</p>
-        
+        <div class="subpage-box"> 
+            <div class="subpage-content">
+                <h1 id="languageTitle" name="languageTitle" >Title</h1>
+                <h1 id="debugging" name="debugging" ></h1>
+                <p id="language_information"> Information about the Language</p>
+            </div>
+        </div>
 
         <!-- <div id="product-card-template">
 
@@ -65,10 +67,12 @@
 <div class="product-list">
         <template id="product-card-template">
             <li class="product-card">
-                <img src="">
-                <h2></h2>
-                <p></p>
-                <form action=""><button></button></form>
+                <img id="card-image" src="">
+                <div class="information-card">
+                <h2 id="title-card"></h2>
+                <p id="paragraph-card"></p>
+                <form id="button-card" action=""><button></button></form>
+                </div>
             </li>
         </template>
 </div>
@@ -88,5 +92,4 @@
     <script src="/js/js.js"></script>
 
 </body>
-
 </html>

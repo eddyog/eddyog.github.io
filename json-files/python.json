@@ -1,7 +1,7 @@
 {
     "Language": [{
         "name": "Submarine Game",
-        "imgSrc": "/languages/python-images/submarine-small.jpg",
+        "imgSrc": "/images/python/submarine-small.jpg",
         "description": "This is two players game that consist in two submarines shooting obtaclues and gettin coins",
         "button": "Submarine Github",
         "link": "https://github.com/eddyog/submarine-game.git"
