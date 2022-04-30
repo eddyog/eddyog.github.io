@@ -395,10 +395,11 @@ button {
 }
 
 .spotlight-head {
+  justify-self: center;
   grid-column-start: 2;
   grid-row-start: 1;
   background-color: var(--slide_background_color);
-  width: 100%;
+  width: 300px;
 }
 
 .mySlides {
@@ -1323,7 +1324,7 @@ text-align: center;
 }
 
 .mySlides{
-  width: 350px;
+  width: 300px;
 }
 #menu-link{
   height: 100px;
@@ -1331,7 +1332,7 @@ text-align: center;
 }
 
 .spot{
-  margin: auto;
+  width: 100%;
 }
 
 .welcome-image{
