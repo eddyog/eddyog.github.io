@@ -1248,7 +1248,7 @@ nav a {
 }
 
  body{
-   width: 470px;
+   width: 100%;
  }
  #menu-link {
    color: black;
