@@ -225,7 +225,7 @@ h1 {
   font-weight: bold;
   text-align: center;
   text-decoration: none;
-  padding: 5px 3rem 5px 3rem;
+  /* padding: 5px 3rem 5px 3rem; */
   font-family: 'Great Vibes', sans-serif;
   color: #012A36;
 }
@@ -405,7 +405,6 @@ button {
   grid-column-start: 2;
   grid-row-start: 2;
   justify-self: center;
-  padding-bottom: 1em;
   background-color: var(--slide_background_color);
 }
 
@@ -413,9 +412,6 @@ button {
   text-align: left;
 }
 
-.mySlides picture img {
-  margin: 0 auto 25px auto;
-}
 
 /* Next & previous buttons */
 .prev,
@@ -484,9 +480,16 @@ button {
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 2.0s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 2.0s;
+}
+
+.sliding{
+  -webkit-animation-name: sliding;
+  -webkit-animation-duration: 2.0s;
+  animation-name: sliding;
+  animation-duration: 2.0s;
 }
 
 @-webkit-keyframes fade {
@@ -497,6 +500,14 @@ button {
   to {
     opacity: 1
   }
+
+  /* from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  } */
+
 }
 
 @keyframes fade {
@@ -506,6 +517,22 @@ button {
 
   to {
     opacity: 1
+  }
+
+  /* from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  } */
+}
+
+@keyframes sliding{
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
   }
 }
 
@@ -1016,6 +1043,10 @@ padding: 100px 100px;
     max-width: 800px;
   }
 
+  .spot{
+    margin: auto;
+  }
+
 
 
   .contact-form h3 {
@@ -1324,5 +1355,9 @@ text-align: center;
 #menu-link{
   height: 100px;
 
+}
+
+.spot{
+  margin: auto;
 }
 }
