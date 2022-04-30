@@ -24,6 +24,56 @@
         "link": "https://github.com/Python-projectsss/Mastermind-Game.git"
       },
 
+            
+      {
+        "name": "Snake Game",
+        "imgSrc": "/images/python/snake-small.jpg",
+        "description": "The snake game consist in the snake eating the snack and increasie sice for each snake that eats",
+        "button": "Snake Github",
+        "link": "https://github.com/eddyog/snake-game-python.git"
+      },
+
+      {
+        "name": "Mastermind Game",
+        "imgSrc": "/images/python/mastermind-small.jpg",
+        "description": "The rules are simple. Players take turns trying to crack their secret code using logic and visual hints. The first person to prove they're a mastermind wins!",
+        "button": "Mastermind Github",
+        "link": "https://github.com/Python-projectsss/Mastermind-Game.git"
+      },
+            
+      {
+        "name": "Snake Game",
+        "imgSrc": "/images/python/snake-small.jpg",
+        "description": "The snake game consist in the snake eating the snack and increasie sice for each snake that eats",
+        "button": "Snake Github",
+        "link": "https://github.com/eddyog/snake-game-python.git"
+      },
+
+      {
+        "name": "Mastermind Game",
+        "imgSrc": "/images/python/mastermind-small.jpg",
+        "description": "The rules are simple. Players take turns trying to crack their secret code using logic and visual hints. The first person to prove they're a mastermind wins!",
+        "button": "Mastermind Github",
+        "link": "https://github.com/Python-projectsss/Mastermind-Game.git"
+      },
+
+            
+      {
+        "name": "Snake Game",
+        "imgSrc": "/images/python/snake-small.jpg",
+        "description": "The snake game consist in the snake eating the snack and increasie sice for each snake that eats",
+        "button": "Snake Github",
+        "link": "https://github.com/eddyog/snake-game-python.git"
+      },
+
+      {
+        "name": "Mastermind Game",
+        "imgSrc": "/images/python/mastermind-small.jpg",
+        "description": "The rules are simple. Players take turns trying to crack their secret code using logic and visual hints. The first person to prove they're a mastermind wins!",
+        "button": "Mastermind Github",
+        "link": "https://github.com/Python-projectsss/Mastermind-Game.git"
+      },
+
       {
         "name": "Jumper Game",
         "imgSrc": "/images/python/jumper-small.jpg",
@@ -31,6 +81,7 @@
         "button": "Jumper Github",
         "link": "https://github.com/Python-projectsss/jumper-game.git"
       }
+
   
     ]
   }

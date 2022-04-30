@@ -14,7 +14,7 @@
   --gold: #EACD86;
   --gray: #c1c1c3;
   /* --pink: #DFD3CE; */
-  --pink: #D3D3D3;
+  --pink: #F7EBDE;
   --dark_blue: #012A36;
 
   --gradient_1: #00022E ;
@@ -142,6 +142,8 @@ picture#banner-out {
 
 
 
+
+
 /**********************************  ********************************* */
 
 
@@ -239,22 +241,23 @@ picture {
   max-width: 150px;
 }
 
+nav>ul>li{
+  border: 2px solid var(--navy_blue);
+}
+
 nav {
   margin-bottom: 0px;
-  padding: 15px;
-  height: 60px;
+  height: 100%;
 }
 
 nav a {
   color: #012A36;
-  text-decoration: none;
-  font-size: 1.5rem;
-  margin: 10px;
 }
+
 
 nav li {
   padding: 10px;
-  border: 1px solid black;
+  /* border: 2px solid black; */
 }
 
 #current-page a {
@@ -269,18 +272,16 @@ nav li {
   color: var(--current_hover);
 }
 
-.menu {
-  list-style: none;
-  display: none;
-}
 
-.responsive {
+
+/* .responsive {
   display: block;
   list-style: none;
-}
+} */
 
 ul li {
   max-width: 800px;
+  height: 100px;
   margin: 0 auto;
   line-height: 1.5em;
 }
@@ -508,115 +509,14 @@ button {
   }
 }
 
-/**************************** SMALL SCREEN ********************************************/
-
-@media only screen and (max-width: 420px) {
-
-  body{
-    width: 470px;
-  }
-  #menu-link {
-    color: white;
-  }
-
-  li a {
-    color: white;
-  }
-
-  .message {
-    color: white;
-  }
-
-  li {
-    color: white;
-  }
-
-  .message-title {
-    color: white;
-  }
-
-  #welcome-image {
-    float: left;
-    display: block;
-    box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;
-    border-radius: 50%;
-    flex-shrink: 1;
-    margin-left: 70px;
-  }
-
-  .welcome-wrap{
-    color: var(--gray);
-  }
-
-  .prev,
-  .next,
-  .text {
-    font-size: 11px
-  }
-
-  img.spot {
-    width: 300px;
-    height: 200px;
-  }
-
-  img.temple {
-    width: 275px;
-  }
-
-  picture.spot {
-    width: 275px;
-    height: 200px;
-  }
-
-
-  /* This is for the product list in the small screen to make it cards */
-
-  .product-card {
-    flex: 1 1 45%;
-    margin: 0.25em;
-    padding: 0.5em;
-    border: 1px solid var(--gold);
-    max-width: 300px;
-    max-height: 750px;
-  }
-
-  .product-list {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    list-style-type: none;
-    padding: 20;
-  }
-
-
-
-}
-
 /***************************************  END OF SMALL SCREEN ****************************************/
-.testimonials {
-  font-size: 0.9rem;
-  display: grid;
-  grid-template-areas:
-    "div div"
-    "div div";
-  grid-gap: 20px 50px;
-}
 
-.testimonials img {
-  display: none;
-}
+
 
 .testimonials p {
   margin: 0px;
 }
 
-.comment-wrap {
-  text-align: right;
-}
-
-.third-comment {
-  /* display: none; */
-}
 
 .name-wrap {
   color: #012A36;
@@ -667,6 +567,7 @@ label {
   margin-left: auto;
   padding: 8px 16px;
 }
+
 
 .form-meat li,
 .form-skin li {
@@ -787,6 +688,9 @@ footer a {
 
 /* *********************** STYLE MEDIUM SCREENS**********************/
 @media only screen and (min-width: 600px) {
+  
+ 
+
   body {
     margin: 0px 0px;
     width: 100%;
@@ -858,27 +762,25 @@ footer a {
     margin-bottom: 5px;
   }
 
-  #menu-link {
-    display: none;
-  }
+ 
 
   nav {
     background-color: var(--navigation-background);
-    font-size: 1.5em;
+    font-size: 2.0em;
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
     padding: 0px;
   }
 
-  nav a {
+  /* nav a {
     margin: 0px;
-  }
+  } */
 
   nav ul {
     list-style-type: none;
     margin: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: var(--navigation-background);
     position: -webkit-sticky;
     /* Safari */
@@ -888,7 +790,7 @@ footer a {
   }
 
   nav li {
-    display: inline;
+    /* display: inline; */
     float: left;
     height: 50px;
   }
@@ -953,9 +855,6 @@ footer a {
     margin-left: 5px;
   }
 
-  .third-comment {
-    display: block;
-  }
 
   .img-wrap {
     max-width: none;
@@ -1018,6 +917,10 @@ footer a {
 
 /* *********************** STYLE FOR LARGE SCREENS**********************/
 @media only screen and (min-width: 800px) {
+
+  #menu-link{
+    display: none;
+  }
 
 
   body {
@@ -1113,9 +1016,7 @@ padding: 100px 100px;
     max-width: 800px;
   }
 
-  .testimonials img {
-    max-width: 200px;
-  }
+
 
   .contact-form h3 {
     margin-bottom: 25px;
@@ -1189,6 +1090,8 @@ padding: 100px 100px;
   .welcome-wrap{
     width: 1200px;
   }
+
+  
 }
 
 
@@ -1259,4 +1162,167 @@ li h2 {
   max-height: 250px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 50%;
+}
+
+
+/**************************** SMALL SCREEN ********************************************/
+
+@media only screen and (max-width: 420px) {
+
+
+  /*************************** NAVIGATION BAR ***************************/
+
+
+nav{
+ margin: 0 auto;
+ max-width: 360px;
+ background-color: #F7EBDE;
+ font-size: 1.3em;
+}
+
+nav>ul>li{
+  height: 30px;
+}
+
+nav a {
+ color: #012A36;
+ text-decoration: none;
+ font-size: 1.5rem;
+ margin: 10px;
+}
+
+
+
+#navigation li:first-child{
+ display: block;
+}
+
+
+#navigation a:hover{
+ color: white;
+ background-color: #99DADE;
+}
+
+#navigation.responsive {
+ display: block;
+}
+
+.menu {
+ list-style: none;
+ display: none;
+}
+.responsive{
+ list-style: none;
+ display: block;
+}
+
+ body{
+   width: 470px;
+ }
+ #menu-link {
+   color: black;
+ }
+
+ ul li {
+   color: black;
+ }
+
+ li a {
+   color: black;
+ }
+
+ .message {
+   color: white;
+ }
+
+ li {
+   color: white;
+ }
+
+ .message-title {
+   color: white;
+ }
+
+ #welcome-image {
+   box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;
+   border-radius: 50%;
+   flex-shrink: 1;
+   margin-left: 70px;
+ }
+
+ .welcome-wrap{
+   color: var(--gray);
+ }
+
+ .prev,
+ .next,
+ .text {
+   font-size: 11px
+ }
+
+ img.spot {
+   width: 300px;
+   height: 200px;
+ }
+
+ picture.spot {
+   width: 275px;
+   height: 200px;
+ }
+
+
+ /* This is for the product list in the small screen to make it cards */
+
+ .product-card {
+   flex: 1 1 45%;
+   margin: 0.25em;
+   padding: 0.5em;
+   border: 1px solid var(--gold);
+   max-width: 300px;
+   max-height: 750px;
+ }
+
+ .product-list {
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-evenly;
+   list-style-type: none;
+   padding: 20px;
+ }
+
+ .comment-wrap{
+   width: 175px;
+ }
+
+ .testimonials-wrap .testimonials{
+   display: grid;
+   justify-content: center;
+ }
+
+ .testimonials img {
+  width: 175px;
+  height: 175px;
+}
+
+#references{
+text-align: center;
+  color: white;
+}
+#references_1,
+#references_2,
+#references_3{
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.about-me{
+  color: white;
+  text-align: center;
+}
+
+#menu-link{
+  height: 100px;
+
+}
 }
