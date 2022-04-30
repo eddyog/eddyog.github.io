@@ -633,27 +633,7 @@ iframe {
   margin: 25px auto;
 }
 
-.temple-page-bubble {
-  max-width: 250px;
-  background-color: #D8D0C1;
-  padding: 25px;
-  margin: 25px auto;
-  border-radius: 8px;
-  justify-self: center;
-}
 
-.temple-page-bubble h3 {
-  margin-bottom: 25px;
-}
-
-.temple-page-bubble li {
-  line-height: 1.5em;
-  list-style-type: none;
-}
-
-.temple-page-bubble li img {
-  display: inline;
-}
 
 .bubble {
   grid-column-start: 1;
@@ -668,15 +648,6 @@ h3 {
   list-style-type: none;
 }
 
-#item4 {
-  display: block;
-  max-width: 900px;
-  background-color: #D8D0C1;
-  margin: 0 auto;
-  padding: 25px;
-  font-size: 1rem;
-  border-radius: 8px;
-}
 
 #item1,
 #item2,
@@ -764,7 +735,6 @@ footer a {
   }
 
   .spotlight h2 {
-    margin-left: 25px;
     margin-top: 15px;
   }
 
@@ -1352,6 +1322,9 @@ text-align: center;
   text-align: center;
 }
 
+.mySlides{
+  width: 350px;
+}
 #menu-link{
   height: 100px;
 
@@ -1360,6 +1333,7 @@ text-align: center;
 .spot{
   margin: auto;
 }
+
 .welcome-image{
  margin: auto; 
 }
