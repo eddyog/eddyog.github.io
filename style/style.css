@@ -735,7 +735,7 @@ footer a {
 
   #welcome-image {
     float: left;
-    margin-right: 25px;
+    margin: auto;
     display: block;
     box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;
     border-radius: 50%;
@@ -1278,7 +1278,7 @@ nav a {
    box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;
    border-radius: 50%;
    flex-shrink: 1;
-   margin-left: 70px;
+   margin: auto;
  }
 
  .welcome-wrap{
@@ -1359,5 +1359,8 @@ text-align: center;
 
 .spot{
   margin: auto;
+}
+.welcome-image{
+ margin: auto; 
 }
 }
