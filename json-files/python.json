@@ -32,12 +32,21 @@
         "link": "https://github.com/Python-projectsss/jumper-game.git"
       },
 
+
+      {
+        "name": "Shopping List",
+        "imgSrc": "/images/python/shopping-list-small.jpg",
+        "description": "This is a program to help you remember what you have buy it will be in order of priority. \nYou will be able to add and remove from the list ",
+        "button": "Shopping List Github",
+        "link": "https://github.com/Python-projectsss/jumper-game.git"
+      },
+
       {
         "name": "Geometry Tool",
         "imgSrc": "/images/python/geometry-small.jpg",
         "description": "Geometry Tool is a program made to find the Area and the Perimeter of a Triangle and Rectangle. The Area of the Rectangle will be find through Heron's Formula since the user is not providing any angle. It has an Menu. The user will introduce their option. It is not case sensity and only will allow the characters shown.",
-        "button": "Geometry Github",
-        "link": "https://github.com/Python-projectsss/super_class_geometry.git"
+        "button": "Geometry Tool Github",
+        "link": "https://github.com/Python-projectsss/queue_shoping_list.git"
       }
 
   
