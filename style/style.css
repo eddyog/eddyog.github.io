@@ -1232,7 +1232,8 @@ nav a {
   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), var(--static_image_small);
 }
 
- /* image  */
+
+/* image  */
  .parallax {
   width: 100%;
   position: initial;
