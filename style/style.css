@@ -1109,7 +1109,7 @@ li h2 {
 }
 
 
-/**************************** SMALL SCREEN ********************************************/
+/**************************** SMALLL SCREEN ********************************************/
 
 @media only screen and (max-width: 420px) {
 
@@ -1236,9 +1236,9 @@ nav a {
 /* image  */
  .parallax {
   width: 100%;
-  position: initial;
+  /* position: initial; */
   height: 500px;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1315,6 +1315,9 @@ text-align: center;
 .spotlight-head{
   width: 300px;
 }
+
+
+
 
 
 
