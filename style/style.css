@@ -348,10 +348,16 @@ button {
   background-color: var(--buttons_background_color);
   border: none;
   width: 150px;
-  height: 50px;
+  height: 65px;
   padding: 10px;
   margin: 25px;
 }
+
+
+#contact-me{
+  width: 100%; 
+}
+
 
 .parallax button {
   font-size: 1.5rem;
