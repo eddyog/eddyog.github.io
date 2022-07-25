@@ -414,6 +414,7 @@ button {
   grid-row-start: 2;
   justify-self: center;
   background-color: var(--slide_background_color);
+  width: 100%;
 }
 
 .mySlides h2 {

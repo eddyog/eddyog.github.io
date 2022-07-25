@@ -3,11 +3,11 @@ const title_page = document.getElementById("title_page");
 const main_title = document.getElementById("main_title");
 const main_message = document.getElementById("main_message");
 const quote = document.getElementById("quote");
-const contact = document.getElementById("contact");
+const contact = document.getElementById("contact-me");
 const about_title = document.getElementById("about_title");
 const about_message = document.getElementById("about_message");
 const main_service_tittle = document.getElementById("main-service-title");
-const example_1 = document.getElementById("example_1");
+const example_1 = document.getElementById("example1");
 const first_link = document.getElementById("first_link");
 const first_button = document.getElementById("first_button");
 const example_2 = document.getElementById("example_2");
@@ -35,7 +35,7 @@ main_message.innerHTML = " I am a visionary student that is pursuing a Sofware E
 quote.innerHTML = "&ldquo;Learn as if you will live forever, live like you will die tomorrow. &rdquo; — Mahatma Gandhi";
 
 // Contact
-contact.innerHTML = "Contact Me";
+contact.innerHTML = "Contact Me: eddyog44@gmail.com";
 
 //about_title
 about_title.innerHTML = "About Me ";
