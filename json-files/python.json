@@ -47,7 +47,7 @@
         "imgSrc": "/images/python/geometry-small.jpg",
         "description": "Geometry Tool is a program made to find the Area and the Perimeter of a Triangle and Rectangle. The Area of the Rectangle will be find through Heron's Formula since the user is not providing any angle. It has an Menu. The user will introduce their option. It is not case sensity and only will allow the characters shown.",
         "button": "Geometry Tool Github",
-        "link": "https://github.com/Python-projectsss/queue_shoping_list.git"
+        "link": "https://github.com/Python-projectsss/super_class_geometry"
       }
 
   
