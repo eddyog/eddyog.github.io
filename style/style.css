@@ -1,7 +1,7 @@
 :root {
 
   /* fonts */
-  --titles_font:  'Merriweather', serif;
+  --titles_font: 'Merriweather', serif;
 
   /* Quote Font */
   --quote_font: 'Great Vibes', cursive, sans-serif;
@@ -10,8 +10,7 @@
   --body_font: 'Merriweather', serif;
 
   /* colors */
-  --navy_blue: #
-  ;
+  --navy_blue: #00022E;
   --gold: #EACD86;
   --gray: #c1c1c3;
   /* --pink: #DFD3CE; */
