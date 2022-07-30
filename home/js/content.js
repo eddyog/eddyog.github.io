@@ -56,7 +56,7 @@ first_link.action = "https://github.com/eddyog/submarine-game";
 first_button.innerHTML = "Submarine Github";
 
 //Example 2
-example_2.innerHTML = "Moon Lander is video game loosely based on the 1969 landing of the Apollo Lunar Module on the Moon. This program was made in C++ focusing in software-oriented programing";
+example_2.innerHTML = "Moon Lander is video game loosely based on the 1969 landing of the Apollo Lunar Module on the Moon. This program was made in C++ focusing on software-oriented programing";
 
 //Second Link
 second_link.action = "https://github.com/eddyog/submarine-game";
@@ -65,7 +65,7 @@ second_link.action = "https://github.com/eddyog/submarine-game";
 second_button.innerHTML = "Moon Lander Github";
 
 //Example 3
-example_3.innerHTML = "Xylophone Game: It was created using the program Xcode in the lenguage Swift. The UI interface was created with view controler Scene and the sounds were connected with IBActions";
+example_3.innerHTML = "Xylophone Game: It was created using the program Xcode in the language Swift. The UI interface was created with view controler Scene and the sounds were connected with IBActions";
 
 //Third Link 
 third_link.action = "https://github.com/eddyog/submarine-game";

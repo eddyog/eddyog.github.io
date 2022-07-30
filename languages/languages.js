@@ -23,7 +23,7 @@ function languages(language){
 
             titleElement.innerHTML = 'Python';
             banner.src = '/images/logos/typing.jpeg'
-            language_information.innerText = 'I have been able to work in python in different projects. I have knowldege in the following topics: Classes, Functions, Data Structures';
+            language_information.innerText = 'I have been able to work in python in different projects. I have knowldege in the following topics: Classes, Functions and Data Structures';
             current_page[1].id = "current-page"
             
 
