@@ -39,7 +39,7 @@ function languages(language){
         case 'web':
             titleElement.innerHTML = 'Web Development';
             banner.src = '/images/logos/typing.jpeg'
-            language_information.innerText = 'I have experience building functional websites by using API and retrieve data from different sources and filtered too. I create understanding code that it can be reusable efficiently.';
+            language_information.innerText = 'I have experience building functional websites by using API to retrieve filtered data from different sources. I created code that can be efficiently reuse and edited';
             current_page[3].id = "current-page"
             break;
 
