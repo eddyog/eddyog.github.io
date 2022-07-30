@@ -2,9 +2,9 @@
     "Language": [
 
         {
-            "name": "Temple Site",
+            "name": "Temple Suite",
             "imgSrc": "/images/web/hotel_small.jpg",
-            "description": "Website to a Hotel that will retrive information from an API with the information about the hotel and some temples from the Church of Jesus Christ for people to visit ",
+            "description": "Website to a Hotel that will retrive information from an API about  temples from the Church of Jesus Christ of Latter-day Saints new by hotels",
             "button": "Temple & Suit Link ",
             "link": "https://eddyog.github.io/temple_suites.github.io/"
           },
