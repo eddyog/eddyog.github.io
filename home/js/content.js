@@ -26,10 +26,10 @@ const references_3 = document.getElementById("references_3");
 title_page.innerHTML = "Eddy O. Gonzalez";
 
 // Main title
-main_title.innerHTML = "Welcome To My Porfolio Online";
+main_title.innerHTML = "Welcome To My Online Portfolio";
 
 // Main message
-main_message.innerHTML = " I am a visionary student that is pursuing a Sofware Engineering Degreen in Brigham Young University Idaho. I have experience in the following lenguages: Python, C++, HTML, CSS, JavaScript, Swift, Linux, Mysql" ;
+main_message.innerHTML = " I am a visionary student that is pursuing a Sofware Engineering Degree in Brigham Young University Idaho. I have experience in the following languages: Python, C++, HTML, CSS, JavaScript, Swift, Linux, Mysql, PHP." ;
 
 // Quote 
 quote.innerHTML = "&ldquo;Learn as if you will live forever, live like you will die tomorrow. &rdquo; — Mahatma Gandhi";
@@ -47,7 +47,7 @@ about_message.innerHTML = "Passion and diligence are two characteristics that I 
 main_service_tittle.innerHTML ="Main Projects";
 
 // Example 1 
-example_1.innerHTML = "Torpedo Game: The Torpedo game was code in Python and is a 2 player game using submarines and an underwater theme. Players will race to win and earn points by shooting obstacles or lose points by colliding with them. Points will be calculated and displayed in real-time.";
+example_1.innerHTML = "Torpedo Game: The Torpedo game was coded in Python and is a 2 player game using submarines and an underwater theme. Players race to win and earn points by shooting obstacles or lose points by colliding with them. Points are calculated and displayed in real-time.";
 
 //first link 
 first_link.action = "https://github.com/eddyog/submarine-game";
