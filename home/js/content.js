@@ -56,7 +56,7 @@ first_link.action = "https://github.com/eddyog/submarine-game";
 first_button.innerHTML = "Submarine Github";
 
 //Example 2
-example_2.innerHTML = "Moon Lander is a genre of video games loosely based on the 1969 landing of the Apollo Lunar Module on the Moon. This program was made in c++ focusing in software-oriented programing";
+example_2.innerHTML = "Moon Lander is video game loosely based on the 1969 landing of the Apollo Lunar Module on the Moon. This program was made in C++ focusing in software-oriented programing";
 
 //Second Link
 second_link.action = "https://github.com/eddyog/submarine-game";
