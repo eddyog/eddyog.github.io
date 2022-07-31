@@ -11,7 +11,7 @@
       {
         "name": "Skeet Game",
         "imgSrc": "/images/c++/skeet-small.jpg",
-        "description": "Skeet or Trap Shooting is a game played by hunters where a clay pigeon is ejected from a throwing device and a marksman attempts to shoot them with a shotgun.",
+        "description": "Skeet or Trap Shooting is a game played by hunters where clay pigeons are ejected from a throwing device and a marksman attempts to shoot them with a shotgun.",
         "button": "Skeet Link",
         "link": "https://github.com/C-Plus-Projects/Skeet-Game.git"
         
