@@ -32,7 +32,7 @@ function languages(language){
         case 'c':
             titleElement.innerHTML = 'C++';
             banner.src = '/images/logos/typing.jpeg'
-            language_information.innerText = 'I have developed several projects with C++ some games that helped to understand Software Objected-Oriendted language';
+            language_information.innerText = 'I have developed several projects with C++, included some games that helped me to understand Software Objected-Oriented language';
             current_page[2].id = "current-page"
             break;
 
