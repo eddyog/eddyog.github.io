@@ -1,21 +1,46 @@
 {
-    "Language": [{
-        "name": "Moon Lander",
-        "imgSrc": "/images/c++/moon-small.jpg",
-        "description": "Moon Lander is a genre of video games loosely based on the 1969 landing of the Apollo Lunar Module on the Moon. ",
-        "button": "Submarine Link",
-        "link": "https://github.com/eddyog/submarine-game.git"
-      },
-
+    "Language": [
       
       {
         "name": "Skeet Game",
         "imgSrc": "/images/c++/skeet-small.jpg",
         "description": "Skeet or Trap Shooting is a game played by hunters where clay pigeons are ejected from a throwing device and a marksman attempts to shoot them with a shotgun.",
-        "button": "Skeet Link",
+        "button": "Skeet Github",
         "link": "https://github.com/C-Plus-Projects/Skeet-Game.git"
         
+      },
+
+
+      {
+        "name": "Moon Lander",
+        "imgSrc": "/images/c++/moon-small.jpg",
+        "description": "Moon Lander is a genre of video games loosely based on the 1969 landing of the Apollo Lunar Module on the Moon. ",
+        "button": "Submarine Github",
+        "link": "https://github.com/eddyog/submarine-game.git"
+      },
+
+
+      {
+        "name": "Reversed String",
+        "imgSrc": "/images/c++/reversed.jpg",
+        "description": "I created a functiono that will return the reversed string It will used the sized and it will go backwards in the string with the push back function it will add to othe new string ",
+        "button": "Reversed Github",
+        "link": "https://github.com/eddyog/array-in-reverse-cplusplus"
+      },
+
+      
+
+
+      {
+        "name": "Geometry Tool",
+        "imgSrc": "/images/c++/geometry.jpg",
+        "description": "Looking to find the perimeter of square, rectangle or triangle. You are in the right program. This program contain three classes to find the information of the different shapes It will compute the information base in what the user input is",
+        "button": "Geomtry Tool Github",
+        "link": "https://github.com/eddyog/CPlusPlus-Classes-geomtry"
+        
       }
+
+
   
     ]
   }
