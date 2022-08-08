@@ -43,6 +43,15 @@
       },
 
       {
+        "name": "Duplicate Letters",
+        "imgSrc": "/images/python/duplicate.jpg",
+        "description": "The purpose of the program is to identify duplicate letters in a string. It will return the letter and how many times is duplicated",
+        "button": "Duplicate Letters Github",
+        "link": "https://github.com/eddyog/duplicate-letters-python.git"
+      },
+
+
+      {
         "name": "Geometry Tool",
         "imgSrc": "/images/python/geometry-small.jpg",
         "description": "Geometry Tool is a program made to find the Area and the Perimeter of a Triangle and Rectangle. The Area of the Rectangle will be found through Heron's Formula since the user is not providing any angles. It has a Menu. The user will enter their option. It is not case sensitive and only will allow the characters shown.",

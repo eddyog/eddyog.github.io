@@ -2,16 +2,16 @@
     "Language": [{
         "name": "Xylophone",
         "imgSrc": "/images/swift/xylophone-small.jpg",
-        "description": "Xylophone Game: It was created using the program Xcode in the lenguage Swift. The UI interface was created with view controler Scene and the sounds were connected with IBActions",
+        "description": "Xylophone Game: It was created using the program Xcode in the language Swift. The UI interface was created with view controler Scene and the sounds were connected with IBActions",
         "button": "Xylophone Github",
         "link": "https://github.com/Swift-projectss/xylophone-app.git"
       },
 
       
       {
-        "name": "Calculator-app",
+        "name": "Calculator App",
         "imgSrc": "/images/swift/calculator-small.jpg",
-        "description": "The Calculator app is an app to perform basic mathematic operations",
+        "description": "The Calculator App is an app to perform basic mathematic operations.",
         "button": "Calculator Githug",
         "link": "https://github.com/Swift-projectss/calculator-app.git"
         

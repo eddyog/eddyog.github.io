@@ -41,7 +41,7 @@ contact.innerHTML = "Contact Me: eddyog44@gmail.com";
 about_title.innerHTML = "About Me ";
 
 //about Message
-about_message.innerHTML = "Passion and diligence are two characteristics that I belive most reflect me as an individual. I belive this is the key to being successful in any goal that one set's their mind. I love to generate new ideas and solutions to relevant problems. I enjoy embracing the lessons learned from failure, stand up and continue to grown";
+about_message.innerHTML = "Passion and diligence are two characteristics that I believe most reflect me as an individual. I believe this is the key to being successful in any goal to which one sets their mind. I love to generate new ideas and solutions to relevant problems. I enjoy embracing the lessons learned from new opportunities, so I can continue to grow. <br> <br> In Software Development I have knowledge in related topics such as Object-Oriented Program, Data Structures, Programming with Classes, Programming with Functions, and more. This has enabled me to create games (see GitHub repositories on my personal website). <br> <br>In Web Development I have built different websites from scratch, through GitHub Pages. I have created a website using PHPMyAdmin as a database. My personal website uses MVC architecture. This has allowed me to make the process of adding information through JASON files to the website more efficient. ";
 
 // Main Services 
 main_service_tittle.innerHTML ="Main Projects";

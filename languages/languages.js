@@ -46,7 +46,7 @@ function languages(language){
         case 'swift':
             titleElement.innerHTML  = 'Swift';
             banner.src = '/images/logos/typing.jpeg'
-            language_information.innerText = 'I have been learning Swift Language in my own. I was really excited about it so I have been taking courses online outside of collage. I created some projects base in the courses and I am excited to learn more about Swift';
+            language_information.innerText = 'I have been learning Swift Language on my own. I was really excited about it so I have been taking courses online outside of college. I created some projects based on the courses and I am excited to learn more about Swift.';
             current_page[4].id = "current-page"
             break;
         case 'others':
