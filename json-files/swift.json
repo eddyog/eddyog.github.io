@@ -1,5 +1,15 @@
 {
-    "Language": [{
+    "Language": [
+      
+      {
+        "name": "Egg Timer",
+        "imgSrc": "/images/swift/egg-timer-small.jpg",
+        "description": "The following in app is a timer that will help you to know how you want your egg. Either soft, medium or hard. Soft = 5 min Medium = 7 min Hard = 12min",
+        "button": "Egg Timer Github",
+        "link": "https://github.com/eddyog/timer-egg-swift"
+      },
+
+      {
         "name": "Xylophone",
         "imgSrc": "/images/swift/xylophone-small.jpg",
         "description": "Xylophone Game: It was created using the program Xcode in the language Swift. The UI interface was created with view controler Scene and the sounds were connected with IBActions",
