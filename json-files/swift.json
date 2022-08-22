@@ -2,6 +2,14 @@
     "Language": [
 
       {
+        "name": "Story Line",
+        "imgSrc": "/images/swift/story-line-small.jpg",
+        "description": "This app is a “choose your own adventure” game similar to the App Store hit “Life Line” app. The app will tell a story depending on what the user chooses and can be fleshed out and modified to provide an engaging story-telling experience",
+        "button": "Story Line App Github",
+        "link": "https://github.com/eddyog/story_line-app-swift.git"
+      },
+
+      {
         "name": "Quizzlet",
         "imgSrc": "/images/swift/quizzlet-small.jpg",
         "description": "Trivia quiz app. If you have another field of expertise such as law or medicine, you’ll be glad to know that multiple choice question apps are one of the most popular types of educational apps on the App Store!",
