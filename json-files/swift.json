@@ -2,6 +2,14 @@
     "Language": [
 
       {
+        "name": "BMI Calculator",
+        "imgSrc": "/images/swift/bmi-calculator-small.jpg",
+        "description": "BMI Calculator is a Body Mass Index calculator. Based on the user’s weight and height it will calculate their body mass and give a piece of health advice depending on whether if they have eaten too many pies or if they need to eat more pies.",
+        "button": "BMI Calculator App Github",
+        "link": "https://github.com/eddyog/BMI-calculator-App-Swift"
+      },
+
+      {
         "name": "Story Line",
         "imgSrc": "/images/swift/story-line-small.jpg",
         "description": "This app is a “choose your own adventure” game similar to the App Store hit “Life Line” app. The app will tell a story depending on what the user chooses and can be fleshed out and modified to provide an engaging story-telling experience",
