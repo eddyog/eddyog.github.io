@@ -24,7 +24,7 @@ function languages(language){
             titleElement.innerHTML = 'Python';
             banner.src = '/images/logos/typing.jpeg'
             language_information.innerText = 'I have been able to work in python in different projects. I have knowldege in the following topics: Classes, Functions and Data Structures';
-            current_page[1].id = "current-page"
+            current_page[2].id = "current-page"
             
 
             break;
@@ -33,7 +33,7 @@ function languages(language){
             titleElement.innerHTML = 'C++';
             banner.src = '/images/logos/typing.jpeg'
             language_information.innerText = 'I have developed several projects with C++, included some games that helped me to understand Software Object-Oriented language.';
-            current_page[2].id = "current-page"
+            current_page[1].id = "current-page"
             break;
 
         case 'web':
