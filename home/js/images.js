@@ -13,7 +13,7 @@ const references_3_image = document.getElementById('references_3_image');
 banner.src = 'images/logos/typing.jpeg';
 
 //Profile Picture
-picture.src = '/home/images/eddy.jpg';
+picture.src = '/home/images/picture.jpg';
 
 //First Example Picture 
 project_first_image.src = '/home/images/torpedo.jpg';

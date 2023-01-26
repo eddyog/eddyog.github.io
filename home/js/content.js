@@ -29,7 +29,7 @@ title_page.innerHTML = "Eddy O. Gonzalez";
 main_title.innerHTML = "Welcome To My Online Portfolio";
 
 // Main message
-main_message.innerHTML = " I am a visionary student that is pursuing a Sofware Engineering Degree in Brigham Young University Idaho. I have experience in the following languages: Python, C++, HTML, CSS, JavaScript, Swift, Linux, Mysql, PHP." ;
+main_message.innerHTML = " I am a visionary student that is pursuing a  Bachelor of Science in Software Engineering at Brigham Young University Idaho. I have experience in the following languages: Python, C++, HTML, CSS, JavaScript, Swift, Linux, Mysql, PHP." ;
 
 // Quote 
 quote.innerHTML = "&ldquo;Learn as if you will live forever, live like you will die tomorrow. &rdquo; — Mahatma Gandhi";
