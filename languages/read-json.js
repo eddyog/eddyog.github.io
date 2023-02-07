@@ -66,9 +66,6 @@ for (var i = 0; i < languages.length; i++){
 
     template.parentNode.appendChild(clone);
     
-
-
-    
 }
    
 

@@ -7,3 +7,6 @@ Personal website that includes in formation about the projects that I have done 
 ## Webssite
 The website was coded by using HTML, JavaScript and Css. The pictures are part of the projects that I have done so far, some other pictures are free from copyright.
 
+## Wire Frame
+https://www.figma.com/proto/uTKTOyA3wx08XYmLiP0GgW/Untitled?node-id=1%3A5
+
