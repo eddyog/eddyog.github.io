@@ -57,62 +57,7 @@
         "description": "Geometry Tool is a program made to find the Area and the Perimeter of a Triangle and Rectangle. The Area of the Rectangle will be found through Heron's Formula since the user is not providing any angles. It has a Menu. The user will enter their option. It is not case sensitive and only will allow the characters shown.",
         "button": "Geometry Tool Github",
         "link": "https://github.com/Python-projectsss/super_class_geometry"
-      },
-
-      
-      {
-        "name": "Snake Game",
-        "imgSrc": "/images/python/snake-small.jpg",
-        "description": "The snake game consists in the snake eating the snack and increasing in size with each snack that it eats",
-        "button": "Snake Github",
-        "link": "https://github.com/eddyog/snake-game-python.git"
-      },
-
-      
-      {
-        "name": "Snake Game",
-        "imgSrc": "/images/python/snake-small.jpg",
-        "description": "The snake game consists in the snake eating the snack and increasing in size with each snack that it eats",
-        "button": "Snake Github",
-        "link": "https://github.com/eddyog/snake-game-python.git"
-      },
-
-      
-      {
-        "name": "Snake Game",
-        "imgSrc": "/images/python/snake-small.jpg",
-        "description": "The snake game consists in the snake eating the snack and increasing in size with each snack that it eats",
-        "button": "Snake Github",
-        "link": "https://github.com/eddyog/snake-game-python.git"
-      },
-
-      
-      {
-        "name": "Snake Game",
-        "imgSrc": "/images/python/snake-small.jpg",
-        "description": "The snake game consists in the snake eating the snack and increasing in size with each snack that it eats",
-        "button": "Snake Github",
-        "link": "https://github.com/eddyog/snake-game-python.git"
-      },
-
-      
-      {
-        "name": "Snake Game",
-        "imgSrc": "/images/python/snake-small.jpg",
-        "description": "The snake game consists in the snake eating the snack and increasing in size with each snack that it eats",
-        "button": "Snake Github",
-        "link": "https://github.com/eddyog/snake-game-python.git"
-      },
-
-      
-      {
-        "name": "Snake Game",
-        "imgSrc": "/images/python/snake-small.jpg",
-        "description": "The snake game consists in the snake eating the snack and increasing in size with each snack that it eats",
-        "button": "Snake Github",
-        "link": "https://github.com/eddyog/snake-game-python.git"
       }
-      
 
   
     ]
