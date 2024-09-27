@@ -12,7 +12,7 @@
   /* colors */
   --navy_blue: #00022E;
   --gold: #EACD86;
-  --gray: #c1c1c3;
+  --gray: #060606;
   /* --pink: #DFD3CE; */
   --pink: #F7EBDE;
   --dark_blue: #012A36;
@@ -30,6 +30,7 @@
   --static_image: url("../home/images/contact-background.png");
   --static_image_small: url("../home/images/contact-background-small.jpg");
 }
+
 
 
 :root {
